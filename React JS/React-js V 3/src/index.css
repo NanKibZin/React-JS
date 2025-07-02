@@ -1,0 +1,36 @@
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+li{
+    margin-left: 3rem;
+    list-style: none;
+}
+nav{
+
+    padding: 0.5rem 0;
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    font-size: 2.3rem;
+    background-color: gray;
+    padding: 4rem 0;
+    color: aliceblue;
+    letter-spacing: 1rem;
+}
+ul{
+ 
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(91, 68, 29);
+}

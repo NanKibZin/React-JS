@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.bar1 {
+  background-color: black;
+}
+.bar1-item {
+  margin: auto;
+  width: 80%;
+}
+.bar2 {
+  background-color: red;
+}
+.bar2-item {
+  /* background-color: aqua;/ */
+  width: 80%;
+  margin: auto;
+  color: antiquewhite;
+}
+.item {
+  padding: 10px 10px;
+  display: flex;
+}
+.item > li {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+.bar3 {
+  display: none;
+  background-color: rgb(7, 8, 8);
+  padding: 1rem 10px;
+}
+.bar3-item {
+  display: flex;
+
+  justify-content: space-between;
+}
+.bar3-item {
+  font-size: 2rem;
+  color: aliceblue;
+}
+.img-bar {
+  /* margin-top: -10px; */
+  height: 45px;
+}
+.img-bar > img {
+  margin-top: -4px;
+  height: 100%;
+}
+.footer {
+  background-color: black;
+  color: aliceblue;
+}
+.footer-contant {
+  overflow: hidden;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.footer1 {
+  width: 25%;
+}
+.footer2 {
+  width: 20%;
+}
+.footer3 {
+  width: 20%;
+  /* margin-left: -6rem; */
+}
+.icon-item {
+  display: flex;
+  margin: 1rem -1rem;
+}
+.icon-item > li {
+  margin-left: 1rem;
+}
+.img-footer {
+  display: flex;
+  width: 200px;
+}
+.img-footer > li > img {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.img-footer > li {
+  margin-left: 6px;
+}
+.footer2 > h3 {
+  margin-bottom: 1rem;
+}
+.f1-1 {
+  display: flex;
+  width: 60px;
+  height: 60px;
+}
+.f1-1 > img {
+  margin-top: -10px;
+  width: 100%;
+  height: 100%;
+}
+.f1-2 {
+  margin: 1.5rem 0;
+}
+.sport {
+  width: 90%;
+  background-color: aqua;
+  margin: auto;
+}
+.big-menu {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(203, 102, 19);
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .bar1-item {
+    display: none;
+  }
+  .bar2-item {
+    display: none;
+  }
+  .bar3 {
+    display: block;
+  }
+
+  .footer2 {
+    display: none;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer-contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

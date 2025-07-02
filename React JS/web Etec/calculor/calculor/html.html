@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 180px;
+        }
+        .container>.display{
+            flex-grow: 1;
+        }
+        .num{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-areas: 
+            "ac ew . /"
+            "7 8 9 +"
+            "4 5 6 -"
+            "3 2 1 *"
+            "00 0 e e"
+            ;
+        }
+        .num:last-child{
+            grid-area: e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calulaor">
+            <form>
+                <div class="display">
+                    <input type="text" name="display">
+                </div>
+                <div class="num">
+                    <input type="button" value="AC">
+                    <input type="button" value="DE">
+                    <input type="button" value=".">
+                    <input type="button" value="/">
+                    <input type="button" value="7" onclick="display.value+='7'">
+                    <input type="button" value="8" onclick="display.value">
+                    <input type="button" value="9" onclick="display.value">
+                    <input type="button" value="+" onclick="display.value">
+                    <input type="button" value="4" onclick="display.value">
+                    <input type="button" value="5" onclick="display.value">
+                    <input type="button" value="6" onclick="display.value">
+                    <input type="button" value="-" onclick="display.value">
+                    <input type="button" value="3" onclick="display.value">
+                    <input type="button" value="2" onclick="display.value">
+                    <input type="button" value="1" onclick="display.value">
+                    <input type="button" value="*" onclick="display.value">
+                    <input type="button" value="00" onclick="display.value">
+                    <input type="button" value="0" onclick="display.value">
+                    <input type="button" value="=" onclick="display.value">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

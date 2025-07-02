@@ -1,0 +1,18 @@
+.bar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* background-color: yellow; */
+}
+.img{
+    height: 40px;
+}
+.bar2>i{
+    font-size: 2rem;
+    color: wheat;
+}
+
+a{
+    /* list-style: none; */
+    text-decoration: none;
+}

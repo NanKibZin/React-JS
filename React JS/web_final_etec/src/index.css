@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.nav-bar{
+  width: 100%;
+  
+  position: fixed;
+  display: flex;
+  padding: 0.5rem 15rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 0 1px red;
+  background-color: rgb(231, 212, 212);
+}
+.nav-logo{
+  font-family: "Concert One", sans-serif;
+  font-size: 2.3rem;
+
+}
+.nav-link a{
+   font-size: 1.5rem;
+   color: aliceblue;
+}
+.nav-toggle{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: none;
+}
+.nav-lists{
+  display: flex;
+  gap: 2rem;
+}
+.footer{
+  background-color:red;
+  padding-top: 3rem;
+
+}
+.footer .box-container{
+  display: grid;
+  padding: 2rem 3rem;
+  margin: 0 2.9rem;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 1rem;
+  border-bottom: 0.1rem solid white;
+}
+.footer .box-container .box a{
+  padding-bottom: 1.5rem;
+  display: block;
+}
+.footer .box-container .box h3{
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: aliceblue;
+}
+.footer .box-container .box a{
+  color: rgb(196, 197, 199);
+}
+.footer .box-container .box a i{
+  padding-right: 0.5rem;
+  color: rgb(242, 235, 236);
+}
+.footer .box-container .box a i:hover{
+  padding-right: 2rem;
+  
+}
+.footer .credit{
+  text-align: center;
+}
+.footer .credit{
+  color: aliceblue;
+  /* border-top:  .1rem solid white; */
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* margin-top: 3rem; */
+  font-size: 2rem;
+  
+}
+.footer .credit span{
+  color: rgb(150, 12, 193);
+}
+.foo{
+   width: 40%;
+   margin: auto;
+   padding: 3rem 0;
+  }
+  .foo .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.foo h3{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.foo .content p{
+  color: rgb(152, 154, 154);
+  text-align: center;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  justify-content: center;
+  background-color: rgb(225, 67, 67);
+  padding: 0.8rem 1.5rem;
+  color: aliceblue;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.slide .img img{
+  width: 100%;
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.btn-slide{
+  transition: all 0.2s ease;
+  position: relative;
+}
+.slide a i{
+  position: absolute;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(205, 213, 220);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 2rem;
+}
+.slide a .right{
+  right: 0;
+}
+.slide a .left{
+  margin-left: 4rem;
+}
+.text{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  
+  width: 100%;
+  padding: 15rem 0;
+}
+.text h1{
+  width: 40%;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(246, 243, 238);
+}
+@media screen and (max-width:1200px){
+  .nav-bar{
+    padding: 0.3rem 15rem;
+  }
+  .nav-link a{
+    font-size: 1.1rem;
+  }
+      
+}
+@media screen and (max-width: 900px){
+  .nav-bar{
+    padding: 0.3rem 5rem;
+
+  }
+  
+
+}
+@media screen and (max-width: 700px){
+   .nav-bar{
+    padding: 0.3rem 2rem;
+    flex-wrap: wrap;
+  
+   }
+   .nav-toggle{
+    display: block;
+   }
+   .nav-lists{
+    /* display: none; */
+    width: 100%;
+    height: 0;
+    flex-direction: column;
+    padding: 0 2rem;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   .nav-lists.active{
+    height: 100vh;
+    margin-top:1.5rem ;
+   }
+   .nav-link a{
+    font-size: 1.2rem;
+   }
+
+  }

@@ -1,0 +1,33 @@
+/* img{
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 1.4rem;
+}
+ul{
+    display: flex;
+
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: -1.3rem;
+
+}
+button{
+    margin-left: 2rem;
+} */

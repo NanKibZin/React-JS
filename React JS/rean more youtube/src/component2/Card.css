@@ -1,0 +1,26 @@
+article{
+    border-radius: 20px;
+    width: 200px;
+    background-color: gray;
+    overflow: hidden;
+    padding: 10px 10px 20px 10px;
+    margin: 5px 0;
+}
+img{
+    width: 200px;
+    border-radius: 10px;
+}
+h3,p{
+    margin: 5px 0;
+    color: aliceblue;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+}
+span{
+    color: aliceblue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}

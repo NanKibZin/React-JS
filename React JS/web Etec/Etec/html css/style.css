@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    /* height: 100vh; */
+    background-color: red;
+}
+.contant-left{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+.box1{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    width: 50px;
+    height: 40px;
+margin-right: 1rem;
+}
+.img>img{
+    color: transparent;
+    padding: 10px 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: blue;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin: 2rem;
+}
+li{
+    list-style: none;
+    /* text-decoration: none; */
+    margin-top: 2rem;
+}
+i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 185, 191);
+}
+.log-out span{
+    display: flex;
+}
+.contant-right{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35, 132, 62);
+}
+.top{
+    width: 100%;
+    height: 40%;
+    background-color: blueviolet;
+}
+.bottom{
+    width: 100%;
+    height: 60%;
+    background-color: red;
+}
+.box-item{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    background-color: aquamarine;
+}

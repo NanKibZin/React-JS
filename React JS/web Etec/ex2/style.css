@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container{
+    width: 90%;
+    height: 200px;
+    background-color: red;
+}
+.box1{
+    width: 30%;
+    background-color: blue;
+    height: 100%;
+}
+    
+display: flex;
+justify-content: center;
+align-items: center;
+.img{
+    
+    width: 100px;
+}
+.img>img{
+    width: 100%;
+}
